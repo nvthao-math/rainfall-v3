@@ -1,0 +1,99 @@
+
+
+- Month 01 
++ scan features
+features = Vas, temp850, ncep_p8_f, Temp, temp700, temp925, ulwrf, shum700, ncep_p5_f, train.acc = 0.811460, test.acc = 0.826303
+
++ scan param
+
+
+--------------------------------------------------------
+- Month  02
++ scan features
+features = ncep_p8_z, U850, temp700, shum700, R500, R850, U700, P500, uswrf, train.acc = 0.873482, test.acc = 0.850543
+
++ scan param
+
+
+--------------------------------------------------------
+- Month  03
++ scan features
+features = U500, ncep_p8th, ncep_prec, shum400, P500, shum700, ncep_p__v, ncep_p5_z, U700, train.acc = 0.868445, test.acc = 0.838710
+
++ scan param
+
+
+--------------------------------------------------------
+- Month  04
++ scan features
+features = ncep_p8_z, ncep_pr_wtr, ncep_p__z, ncep_p__v, ncep_p5zh, U500, ncep_lftx, ncep_p5_z, shum400, P500, shum700, train.acc = 0.843511, test.acc = 0.787179
+
++ scan param
+
+
+--------------------------------------------------------
+- Month  05
++ scan features
+features = temp500, R500, V925, ncep_p5_z, ncep_p5_f, V700, U500, ncep_p__u, ncep_prec, shum700, train.acc = 0.815888, test.acc = 0.816377
+
++ scan param
+
+
+--------------------------------------------------------
+- Month  06
++ scan features
+features = shum400, shum850, U700, V925, ncep_lftx, temp700, ncep_p8_z, V700, U850, ncep_pr_wtr, train.acc = 0.847291, test.acc = 0.820513
+
++ scan param
+
+
+--------------------------------------------------------
+- Month  07
++ scan features
+features = shum850, shum400, ncep_p__u, shum925, ncep_p8th, temp700, U925, ncep_p5th, R850, train.acc = 0.785164, test.acc = 0.774194
+
++ scan param
+
+
+
+--------------------------------------------------------
+- Month  08
++ scan features
+features = U500, Uas, dswrf, ncep_shum, U700, ulwrf, V850, shum700, train.acc = 0.788301, test.acc = 0.803970
+
++ scan param
+
+
+
+--------------------------------------------------------
+- Month  09
++ scan features
+features = Uas, P850, dlwrf, ncep_p__u, ncep_p_th, temp500, shum850, V700, V850, U850, shum300, ncep_pr_wtr, train.acc = 0.823353, test.acc = 0.810256
+
++ scan param
+
+
+
+--------------------------------------------------------
+- Month  10
++ scan features
+features = Uas, ncep_p5th, Vas, ulwrf, ncep_p__v, V925, ncep_p8_z, shum400, R850, ncep_p__f, ncep_pr_wtr, ncep_prec, train.acc = 0.875000, test.acc = 0.878412
+
++ scan param
+
+--------------------------------------------------------
+- Month  11
++ scan features
+features = ncep_p8zh, U700, ncep_p__v, P500, shum700, train.acc = 0.826255, test.acc = 0.841026
+
++ scan param
+
+
+--------------------------------------------------------
+- Month  12
++ scan features
+features = ncep_p5zh, shum300, shum925, Uas, mslp, temp500, P500, shum700, ncep_p5_f, ncep_dswr, train.acc = 0.864060, test.acc = 0.848635
+
++ scan param
+
+

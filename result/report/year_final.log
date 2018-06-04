@@ -1,0 +1,7 @@
+
++ SVM scan features
+features = R850, rhum, P300, ncep_p__f, V500, ncep_dswr, ncep_p__z, ncep_p5_f, V700, temp925, ncep_p8_z, R500, temp700, Uas, ncep_pr_wtr, U700, V925, ncep_p5th, P500, shum700, train.acc = 0.843494, test.acc = 0.802695
+
+
++ SVM scan param
+

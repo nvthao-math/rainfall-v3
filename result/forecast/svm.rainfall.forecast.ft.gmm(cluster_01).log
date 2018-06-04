@@ -1,0 +1,85 @@
+train
+features = ncep_p5_z, rmse.train = 61.611107, rmse.test = 77.568432, mean.error = 69.589770, hmean.error = 68.674994
+features = Uas, ncep_p5_z, rmse.train = 53.837349, rmse.test = 81.099775, mean.error = 67.468562, hmean.error = 64.714539
+features = ncep_p__v, Uas, ncep_p5_z, rmse.train = 44.767116, rmse.test = 86.237710, mean.error = 65.502413, hmean.error = 58.938494
+features = R850, ncep_p__v, Uas, ncep_p5_z, rmse.train = 43.491822, rmse.test = 88.465848, mean.error = 65.978835, hmean.error = 58.314775
+features = U850, R850, ncep_p__v, Uas, ncep_p5_z, rmse.train = 43.202407, rmse.test = 90.190860, mean.error = 66.696633, hmean.error = 58.420674
+test
+features = ncep_p__z, rmse.train = 64.004485, rmse.test = 76.039972, mean.error = 70.022229, hmean.error = 69.505061
+features = shum700, ncep_p__z, rmse.train = 59.688690, rmse.test = 72.627710, mean.error = 66.158200, hmean.error = 65.525556
+and
+features = ncep_p__z, rmse.train = 64.004485, rmse.test = 76.039972, mean.error = 70.022229, hmean.error = 69.505061
+features = shum700, ncep_p__z, rmse.train = 59.688690, rmse.test = 72.627710, mean.error = 66.158200, hmean.error = 65.525556
+or
+features = ncep_p5_z, rmse.train = 61.611107, rmse.test = 77.568432, mean.error = 69.589770, hmean.error = 68.674994
+features = V500, ncep_p5_z, rmse.train = 57.902794, rmse.test = 72.565184, mean.error = 65.233989, hmean.error = 64.410087
+features = uswrf, V500, ncep_p5_z, rmse.train = 54.296772, rmse.test = 80.538272, mean.error = 67.417522, hmean.error = 64.863971
+features = V850, uswrf, V500, ncep_p5_z, rmse.train = 52.772047, rmse.test = 83.440812, mean.error = 68.106429, hmean.error = 64.653843
+features = dswrf, V850, uswrf, V500, ncep_p5_z, rmse.train = 51.362928, rmse.test = 87.097263, mean.error = 69.230096, hmean.error = 64.618869
+features = Vas, dswrf, V850, uswrf, V500, ncep_p5_z, rmse.train = 51.261635, rmse.test = 89.048792, mean.error = 70.155214, hmean.error = 65.066963
+features = V700, Vas, dswrf, V850, uswrf, V500, ncep_p5_z, rmse.train = 50.952974, rmse.test = 89.423404, mean.error = 70.188189, hmean.error = 64.916739
+features = V925, V700, Vas, dswrf, V850, uswrf, V500, ncep_p5_z, rmse.train = 51.053032, rmse.test = 90.872480, mean.error = 70.962756, hmean.error = 65.376768
+features = Uas, V925, V700, Vas, dswrf, V850, uswrf, V500, ncep_p5_z, rmse.train = 48.690797, rmse.test = 92.605045, mean.error = 70.647921, hmean.error = 63.823725
+features = U700, Uas, V925, V700, Vas, dswrf, V850, uswrf, V500, ncep_p5_z, rmse.train = 48.686000, rmse.test = 93.626768, mean.error = 71.156384, hmean.error = 64.060490
+mean
+features = ncep_p5_z, rmse.train = 61.611107, rmse.test = 77.568432, mean.error = 69.589770, hmean.error = 68.674994
+features = ncep_p5zh, ncep_p5_z, rmse.train = 57.967843, rmse.test = 70.986807, mean.error = 64.477325, hmean.error = 63.820143
+features = ncep_lftx, ncep_p5zh, ncep_p5_z, rmse.train = 55.789733, rmse.test = 69.941037, mean.error = 62.865385, hmean.error = 62.069003
+features = temp850, ncep_lftx, ncep_p5zh, ncep_p5_z, rmse.train = 53.524768, rmse.test = 70.394380, mean.error = 61.959574, hmean.error = 60.811310
+harmonic-mean
+features = ncep_p5_z, rmse.train = 61.611107, rmse.test = 77.568432, mean.error = 69.589770, hmean.error = 68.674994
+features = ncep_p5zh, ncep_p5_z, rmse.train = 57.967843, rmse.test = 70.986807, mean.error = 64.477325, hmean.error = 63.820143
+features = R500, ncep_p5zh, ncep_p5_z, rmse.train = 52.274266, rmse.test = 74.302650, mean.error = 63.288458, hmean.error = 61.371640
+features = ncep_p__f, R500, ncep_p5zh, ncep_p5_z, rmse.train = 45.804324, rmse.test = 80.270902, mean.error = 63.037613, hmean.error = 58.326358
+features = R850, ncep_p__f, R500, ncep_p5zh, ncep_p5_z, rmse.train = 42.799734, rmse.test = 82.462977, mean.error = 62.631356, hmean.error = 56.351862
+max
+features = dswrf, rmse.train = 90.213561, rmse.test = 107.020123, mean.error = 98.616842, hmean.error = 97.900787
+features = uswrf, dswrf, rmse.train = 88.972057, rmse.test = 105.581445, mean.error = 97.276751, hmean.error = 96.567764
+features = Vas, uswrf, dswrf, rmse.train = 85.453220, rmse.test = 102.878683, mean.error = 94.165951, hmean.error = 93.359803
+features = V925, Vas, uswrf, dswrf, rmse.train = 80.969074, rmse.test = 99.916145, mean.error = 90.442610, hmean.error = 89.450291
+features = V850, V925, Vas, uswrf, dswrf, rmse.train = 77.505971, rmse.test = 99.728046, mean.error = 88.617008, hmean.error = 87.223877
+features = V700, V850, V925, Vas, uswrf, dswrf, rmse.train = 74.646801, rmse.test = 98.503117, mean.error = 86.574959, hmean.error = 84.931517
+max
+features = uswrf, rmse.train = 89.700799, rmse.test = 106.139556, mean.error = 97.920178, hmean.error = 97.230246
+max
+features = uswrf, rmse.train = 89.700799, rmse.test = 106.139556, rmse.test.max = 107.020123
+features = V925, uswrf, rmse.train = 87.124141, rmse.test = 101.747349, rmse.test.max = 105.581445
+features = Vas, V925, uswrf, rmse.train = 82.929302, rmse.test = 100.242708, rmse.test.max = 101.026143
+features = dswrf, Vas, V925, uswrf, rmse.train = 80.969074, rmse.test = 99.916145, rmse.test.max = 99.916145
+max
+max
+features = ncep_p__z, rmse.train = 64.004485, rmse.test = 76.039972, rmse.test.max = 107.020123
+features = shum700, ncep_p__z, rmse.train = 59.688690, rmse.test = 72.627710, rmse.test.max = 81.153560
+max
+features = ncep_p__z, rmse.train = 64.004485, rmse.test = 76.039972, rmse.test.max = 107.020123
+features = shum700, ncep_p__z, rmse.train = 59.688690, rmse.test = 72.627710, rmse.test.max = 81.153560
+max
+features = ncep_p__z, rmse.train = 64.004485, rmse.test = 76.039972, rmse.test.max = 107.020123
+features = shum700, ncep_p__z, rmse.train = 59.688690, rmse.test = 72.627710, rmse.test.max = 81.153560
+max
+features = ncep_p__z, rmse.train = 64.004485, rmse.test = 76.039972, rmse.test.max = 107.020123
+features = shum700, ncep_p__z, rmse.train = 59.688690, rmse.test = 72.627710, rmse.test.max = 81.153560
+max
+features = ncep_p__z, rmse.train = 64.004485, rmse.test = 76.039972, rmse.test.max = 107.020123
+features = shum700, ncep_p__z, rmse.train = 59.688690, rmse.test = 72.627710, rmse.test.max = 81.153560
+max
+features = ncep_p__z, rmse.train = 64.004485, rmse.test = 76.039972, rmse.test.max = 107.020123
+features = shum700, ncep_p__z, rmse.train = 59.688690, rmse.test = 72.627710, rmse.test.max = 81.153560
+max
+features = ncep_p__z, rmse.train = 64.004485, rmse.test = 76.039972, rmse.test.max = 107.020123
+features = shum700, ncep_p__z, rmse.train = 59.688690, rmse.test = 72.627710, rmse.test.max = 81.153560
+max
+features = ncep_p__z, rmse.train = 64.004485, rmse.test = 76.039972, rmse.test.max = 107.020123
+features = shum700, ncep_p__z, rmse.train = 59.688690, rmse.test = 72.627710, rmse.test.max = 81.153560
+max
+features = ncep_p__z, rmse.train = 64.004485, rmse.test = 76.039972, rmse.test.max = 107.020123
+features = shum700, ncep_p__z, rmse.train = 59.688690, rmse.test = 72.627710, rmse.test.max = 81.153560
+max
+features = ncep_p__z, rmse.train = 64.004485, rmse.test = 76.039972, rmse.test.max = 107.020123
+features = shum700, ncep_p__z, rmse.train = 59.688690, rmse.test = 72.627710, rmse.test.max = 81.153560
+max
+features = ncep_p__z, rmse.train = 64.004485, rmse.test = 76.039972, rmse.test.max = 107.020123
+features = shum700, ncep_p__z, rmse.train = 59.688690, rmse.test = 72.627710, rmse.test.max = 81.153560
+max
+features = ncep_p__z, rmse.train = 64.004485, rmse.test = 76.039972, rmse.test.max = 107.020123
+features = shum700, ncep_p__z, rmse.train = 59.688690, rmse.test = 72.627710, rmse.test.max = 81.153560

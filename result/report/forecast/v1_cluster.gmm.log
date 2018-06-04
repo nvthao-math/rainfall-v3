@@ -1,0 +1,13 @@
+
+- Cluster 01
+features = ncep_lftx, ncep_p5zh, ncep_p5_z, rmse.train = 55.789733, rmse.test = 69.941037
+param = 
+
+
+
+- Cluster 02
+features = U700, R850, ncep_pr_wtr, shum300, ncep_p8_z, ncep_prec, ncep_p5th, temp500, ncep_p__u, P300, ncep_p__f, P850, ncep_p__z, rmse.train = 4.904754, rmse.test = 9.751147
+
+
+
+

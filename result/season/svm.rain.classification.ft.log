@@ -1,0 +1,87 @@
+train
+features = ncep_pr_wtr, train.acc = 0.698268, test.acc = 0.711538
+features = ncep_p5th, ncep_pr_wtr, train.acc = 0.720244, test.acc = 0.721572
+features = ncep_p__u, ncep_p5th, ncep_pr_wtr, train.acc = 0.739172, test.acc = 0.740385
+features = temp700, ncep_p__u, ncep_p5th, ncep_pr_wtr, train.acc = 0.754732, test.acc = 0.750000
+features = U700, temp700, ncep_p__u, ncep_p5th, ncep_pr_wtr, train.acc = 0.762913, test.acc = 0.759197
+features = P850, U700, temp700, ncep_p__u, ncep_p5th, ncep_pr_wtr, train.acc = 0.776227, test.acc = 0.766304
+features = V700, P850, U700, temp700, ncep_p__u, ncep_p5th, ncep_pr_wtr, train.acc = 0.787135, test.acc = 0.780100
+features = ulwrf, V700, P850, U700, temp700, ncep_p__u, ncep_p5th, ncep_pr_wtr, train.acc = 0.791787, test.acc = 0.785117
+features = ncep_p8_f, ulwrf, V700, P850, U700, temp700, ncep_p__u, ncep_p5th, ncep_pr_wtr, train.acc = 0.798685, test.acc = 0.785117
+features = ncep_p__z, ncep_p8_f, ulwrf, V700, P850, U700, temp700, ncep_p__u, ncep_p5th, ncep_pr_wtr, train.acc = 0.802374, test.acc = 0.785535
+features = rhum, ncep_p__z, ncep_p8_f, ulwrf, V700, P850, U700, temp700, ncep_p__u, ncep_p5th, ncep_pr_wtr, train.acc = 0.808630, test.acc = 0.784281
+features = V925, rhum, ncep_p__z, ncep_p8_f, ulwrf, V700, P850, U700, temp700, ncep_p__u, ncep_p5th, ncep_pr_wtr, train.acc = 0.812480, test.acc = 0.790970
+features = ncep_dswr, V925, rhum, ncep_p__z, ncep_p8_f, ulwrf, V700, P850, U700, temp700, ncep_p__u, ncep_p5th, ncep_pr_wtr, train.acc = 0.816651, test.acc = 0.794732
+features = P300, ncep_dswr, V925, rhum, ncep_p__z, ncep_p8_f, ulwrf, V700, P850, U700, temp700, ncep_p__u, ncep_p5th, ncep_pr_wtr, train.acc = 0.822586, test.acc = 0.789298
+features = Uas, P300, ncep_dswr, V925, rhum, ncep_p__z, ncep_p8_f, ulwrf, V700, P850, U700, temp700, ncep_p__u, ncep_p5th, ncep_pr_wtr, train.acc = 0.826756, test.acc = 0.793896
+test
+features = ncep_pr_wtr, train.acc = 0.698268, test.acc = 0.711538
+features = ncep_p8th, ncep_pr_wtr, train.acc = 0.712865, test.acc = 0.733696
+features = temp850, ncep_p8th, ncep_pr_wtr, train.acc = 0.731793, test.acc = 0.742475
+features = P500, temp850, ncep_p8th, ncep_pr_wtr, train.acc = 0.740135, test.acc = 0.760452
+features = ncep_shum, P500, temp850, ncep_p8th, ncep_pr_wtr, train.acc = 0.748155, test.acc = 0.767140
+features = ncep_p8_f, ncep_shum, P500, temp850, ncep_p8th, ncep_pr_wtr, train.acc = 0.762432, test.acc = 0.772157
+features = V700, ncep_p8_f, ncep_shum, P500, temp850, ncep_p8th, ncep_pr_wtr, train.acc = 0.768046, test.acc = 0.778428
+features = shum925, V700, ncep_p8_f, ncep_shum, P500, temp850, ncep_p8th, ncep_pr_wtr, train.acc = 0.773661, test.acc = 0.783445
+features = V925, shum925, V700, ncep_p8_f, ncep_shum, P500, temp850, ncep_p8th, ncep_pr_wtr, train.acc = 0.780558, test.acc = 0.788043
+features = shum850, V925, shum925, V700, ncep_p8_f, ncep_shum, P500, temp850, ncep_p8th, ncep_pr_wtr, train.acc = 0.782804, test.acc = 0.791388
+features = P850, shum850, V925, shum925, V700, ncep_p8_f, ncep_shum, P500, temp850, ncep_p8th, ncep_pr_wtr, train.acc = 0.790825, test.acc = 0.792224
+and
+features = ncep_pr_wtr, train.acc = 0.698268, test.acc = 0.711538
+features = ncep_p5_f, ncep_pr_wtr, train.acc = 0.718479, test.acc = 0.722408
+features = U850, ncep_p5_f, ncep_pr_wtr, train.acc = 0.737087, test.acc = 0.735368
+features = temp700, U850, ncep_p5_f, ncep_pr_wtr, train.acc = 0.755695, test.acc = 0.755435
+features = Tas, temp700, U850, ncep_p5_f, ncep_pr_wtr, train.acc = 0.764357, test.acc = 0.766304
+features = mslp, Tas, temp700, U850, ncep_p5_f, ncep_pr_wtr, train.acc = 0.771736, test.acc = 0.772157
+features = shum925, mslp, Tas, temp700, U850, ncep_p5_f, ncep_pr_wtr, train.acc = 0.777029, test.acc = 0.780518
+features = V700, shum925, mslp, Tas, temp700, U850, ncep_p5_f, ncep_pr_wtr, train.acc = 0.785371, test.acc = 0.783863
+features = U700, V700, shum925, mslp, Tas, temp700, U850, ncep_p5_f, ncep_pr_wtr, train.acc = 0.791466, test.acc = 0.790134
+features = ncep_p__z, U700, V700, shum925, mslp, Tas, temp700, U850, ncep_p5_f, ncep_pr_wtr, train.acc = 0.797401, test.acc = 0.794732
+features = ncep_dswr, ncep_p__z, U700, V700, shum925, mslp, Tas, temp700, U850, ncep_p5_f, ncep_pr_wtr, train.acc = 0.801732, test.acc = 0.795987
+features = ncep_p__u, ncep_dswr, ncep_p__z, U700, V700, shum925, mslp, Tas, temp700, U850, ncep_p5_f, ncep_pr_wtr, train.acc = 0.804941, test.acc = 0.796823
+features = ncep_p__f, ncep_p__u, ncep_dswr, ncep_p__z, U700, V700, shum925, mslp, Tas, temp700, U850, ncep_p5_f, ncep_pr_wtr, train.acc = 0.809111, test.acc = 0.798077
+features = rhum, ncep_p__f, ncep_p__u, ncep_dswr, ncep_p__z, U700, V700, shum925, mslp, Tas, temp700, U850, ncep_p5_f, ncep_pr_wtr, train.acc = 0.814886, test.acc = 0.800585
+features = V850, rhum, ncep_p__f, ncep_p__u, ncep_dswr, ncep_p__z, U700, V700, shum925, mslp, Tas, temp700, U850, ncep_p5_f, ncep_pr_wtr, train.acc = 0.819057, test.acc = 0.801839
+or
+features = ncep_pr_wtr, train.acc = 0.698268, test.acc = 0.711538
+features = V850, ncep_pr_wtr, train.acc = 0.714148, test.acc = 0.721154
+features = U850, V850, ncep_pr_wtr, train.acc = 0.736445, test.acc = 0.741639
+features = U500, U850, V850, ncep_pr_wtr, train.acc = 0.748316, test.acc = 0.762124
+features = V700, U500, U850, V850, ncep_pr_wtr, train.acc = 0.760346, test.acc = 0.765886
+features = V925, V700, U500, U850, V850, ncep_pr_wtr, train.acc = 0.763234, test.acc = 0.767977
+features = temp700, V925, V700, U500, U850, V850, ncep_pr_wtr, train.acc = 0.778794, test.acc = 0.781355
+features = P850, temp700, V925, V700, U500, U850, V850, ncep_pr_wtr, train.acc = 0.788900, test.acc = 0.784699
+features = U700, P850, temp700, V925, V700, U500, U850, V850, ncep_pr_wtr, train.acc = 0.794033, test.acc = 0.790552
+features = uswrf, U700, P850, temp700, V925, V700, U500, U850, V850, ncep_pr_wtr, train.acc = 0.797081, test.acc = 0.790970
+mean
+features = ncep_pr_wtr, train.acc = 0.698268, test.acc = 0.711538
+features = ncep_p8th, ncep_pr_wtr, train.acc = 0.712865, test.acc = 0.733696
+features = temp700, ncep_p8th, ncep_pr_wtr, train.acc = 0.734200, test.acc = 0.741639
+features = U700, temp700, ncep_p8th, ncep_pr_wtr, train.acc = 0.748316, test.acc = 0.755017
+features = Vas, U700, temp700, ncep_p8th, ncep_pr_wtr, train.acc = 0.759384, test.acc = 0.768395
+features = mslp, Vas, U700, temp700, ncep_p8th, ncep_pr_wtr, train.acc = 0.769169, test.acc = 0.777174
+features = ncep_shum, mslp, Vas, U700, temp700, ncep_p8th, ncep_pr_wtr, train.acc = 0.776548, test.acc = 0.786371
+features = V700, ncep_shum, mslp, Vas, U700, temp700, ncep_p8th, ncep_pr_wtr, train.acc = 0.786012, test.acc = 0.782191
+features = Uas, V700, ncep_shum, mslp, Vas, U700, temp700, ncep_p8th, ncep_pr_wtr, train.acc = 0.792910, test.acc = 0.793478
+features = U500, Uas, V700, ncep_shum, mslp, Vas, U700, temp700, ncep_p8th, ncep_pr_wtr, train.acc = 0.796278, test.acc = 0.796823
+features = ncep_p8_z, U500, Uas, V700, ncep_shum, mslp, Vas, U700, temp700, ncep_p8th, ncep_pr_wtr, train.acc = 0.801732, test.acc = 0.796823
+features = rhum, ncep_p8_z, U500, Uas, V700, ncep_shum, mslp, Vas, U700, temp700, ncep_p8th, ncep_pr_wtr, train.acc = 0.809111, test.acc = 0.795569
+features = V925, rhum, ncep_p8_z, U500, Uas, V700, ncep_shum, mslp, Vas, U700, temp700, ncep_p8th, ncep_pr_wtr, train.acc = 0.812480, test.acc = 0.803512
+features = ncep_p__z, V925, rhum, ncep_p8_z, U500, Uas, V700, ncep_shum, mslp, Vas, U700, temp700, ncep_p8th, ncep_pr_wtr, train.acc = 0.815849, test.acc = 0.803930
+features = dswrf, ncep_p__z, V925, rhum, ncep_p8_z, U500, Uas, V700, ncep_shum, mslp, Vas, U700, temp700, ncep_p8th, ncep_pr_wtr, train.acc = 0.824190, test.acc = 0.800167
+features = ncep_p__f, dswrf, ncep_p__z, V925, rhum, ncep_p8_z, U500, Uas, V700, ncep_shum, mslp, Vas, U700, temp700, ncep_p8th, ncep_pr_wtr, train.acc = 0.827879, test.acc = 0.801839
+features = ncep_lftx, ncep_p__f, dswrf, ncep_p__z, V925, rhum, ncep_p8_z, U500, Uas, V700, ncep_shum, mslp, Vas, U700, temp700, ncep_p8th, ncep_pr_wtr, train.acc = 0.831569, test.acc = 0.801003
+features = ncep_p5th, ncep_lftx, ncep_p__f, dswrf, ncep_p__z, V925, rhum, ncep_p8_z, U500, Uas, V700, ncep_shum, mslp, Vas, U700, temp700, ncep_p8th, ncep_pr_wtr, train.acc = 0.835900, test.acc = 0.800585
+features = U925, ncep_p5th, ncep_lftx, ncep_p__f, dswrf, ncep_p__z, V925, rhum, ncep_p8_z, U500, Uas, V700, ncep_shum, mslp, Vas, U700, temp700, ncep_p8th, ncep_pr_wtr, train.acc = 0.838627, test.acc = 0.801421
+harmonic-mean
+features = ncep_pr_wtr, train.acc = 0.698268, test.acc = 0.711538
+features = ncep_p8th, ncep_pr_wtr, train.acc = 0.712865, test.acc = 0.733696
+features = temp700, ncep_p8th, ncep_pr_wtr, train.acc = 0.734200, test.acc = 0.741639
+features = U700, temp700, ncep_p8th, ncep_pr_wtr, train.acc = 0.748316, test.acc = 0.755017
+features = Vas, U700, temp700, ncep_p8th, ncep_pr_wtr, train.acc = 0.759384, test.acc = 0.768395
+features = mslp, Vas, U700, temp700, ncep_p8th, ncep_pr_wtr, train.acc = 0.769169, test.acc = 0.777174
+features = V500, mslp, Vas, U700, temp700, ncep_p8th, ncep_pr_wtr, train.acc = 0.781521, test.acc = 0.781355
+features = Tas, V500, mslp, Vas, U700, temp700, ncep_p8th, ncep_pr_wtr, train.acc = 0.786654, test.acc = 0.788043
+features = U850, Tas, V500, mslp, Vas, U700, temp700, ncep_p8th, ncep_pr_wtr, train.acc = 0.793872, test.acc = 0.793060
+features = ncep_p8_z, U850, Tas, V500, mslp, Vas, U700, temp700, ncep_p8th, ncep_pr_wtr, train.acc = 0.800449, test.acc = 0.793478
+features = ncep_p__z, ncep_p8_z, U850, Tas, V500, mslp, Vas, U700, temp700, ncep_p8th, ncep_pr_wtr, train.acc = 0.802374, test.acc = 0.793478

@@ -1,0 +1,15 @@
+- Scan features
+features = shum500, ncep_p__v, U500, U925, P500, shum700, ncep_p8_z
+	+ train.acc = 0.738169, test.acc = 0.731810
+	+ train.high.acc = 0.872340, train.medium.acc = 0.639847, train.low.acc = 0.747557
+	+ test.high.acc = 0.810345, test.medium.acc = 0.593407, test.low.acc = 0.745028
+
+- Scan parameter
+
+c = 2, sigma = 0.003
+	+ train.acc = 0.692656, test.acc = 0.696309
+	+ train.high.acc = 0.846154, train.medium.acc = 0.500000, train.low.acc = 0.691455
+	+ test.high.acc = 0.857143, test.medium.acc = 0.800000, test.low.acc = 0.693300
+
+
+

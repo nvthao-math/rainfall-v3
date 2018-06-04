@@ -1,0 +1,50 @@
+train
+features = shum700, train.acc = 0.708015, test.acc = 0.687179
+features = P500, shum700, train.acc = 0.761450, test.acc = 0.746154
+features = ncep_p5th, P500, shum700, train.acc = 0.784351, test.acc = 0.735897
+features = shum400, ncep_p5th, P500, shum700, train.acc = 0.794847, test.acc = 0.741026
+features = U700, shum400, ncep_p5th, P500, shum700, train.acc = 0.808206, test.acc = 0.741026
+features = U500, U700, shum400, ncep_p5th, P500, shum700, train.acc = 0.814885, test.acc = 0.730769
+features = shum300, U500, U700, shum400, ncep_p5th, P500, shum700, train.acc = 0.824427, test.acc = 0.733333
+features = V850, shum300, U500, U700, shum400, ncep_p5th, P500, shum700, train.acc = 0.832061, test.acc = 0.723077
+features = U925, V850, shum300, U500, U700, shum400, ncep_p5th, P500, shum700, train.acc = 0.841603, test.acc = 0.738462
+test
+features = shum700, train.acc = 0.708015, test.acc = 0.687179
+features = P500, shum700, train.acc = 0.761450, test.acc = 0.746154
+features = ncep_p__v, P500, shum700, train.acc = 0.767176, test.acc = 0.761538
+features = U500, ncep_p__v, P500, shum700, train.acc = 0.777672, test.acc = 0.766667
+features = ncep_pottmp, U500, ncep_p__v, P500, shum700, train.acc = 0.790076, test.acc = 0.782051
+features = U850, ncep_pottmp, U500, ncep_p__v, P500, shum700, train.acc = 0.798664, test.acc = 0.784615
+features = mslp, U850, ncep_pottmp, U500, ncep_p__v, P500, shum700, train.acc = 0.794847, test.acc = 0.789744
+and
+features = shum700, train.acc = 0.708015, test.acc = 0.687179
+features = P500, shum700, train.acc = 0.761450, test.acc = 0.746154
+features = temp925, P500, shum700, train.acc = 0.773855, test.acc = 0.756410
+features = U500, temp925, P500, shum700, train.acc = 0.782443, test.acc = 0.771795
+features = ncep_p8th, U500, temp925, P500, shum700, train.acc = 0.792939, test.acc = 0.774359
+features = temp500, ncep_p8th, U500, temp925, P500, shum700, train.acc = 0.794847, test.acc = 0.776923
+or
+features = shum700, train.acc = 0.708015, test.acc = 0.687179
+features = P500, shum700, train.acc = 0.761450, test.acc = 0.746154
+features = dswrf, P500, shum700, train.acc = 0.756679, test.acc = 0.756410
+mean
+features = shum700, train.acc = 0.708015, test.acc = 0.687179
+features = P500, shum700, train.acc = 0.761450, test.acc = 0.746154
+features = shum400, P500, shum700, train.acc = 0.782443, test.acc = 0.751282
+features = ncep_p5_z, shum400, P500, shum700, train.acc = 0.792939, test.acc = 0.751282
+features = ncep_lftx, ncep_p5_z, shum400, P500, shum700, train.acc = 0.800573, test.acc = 0.758974
+features = U500, ncep_lftx, ncep_p5_z, shum400, P500, shum700, train.acc = 0.812023, test.acc = 0.751282
+features = ncep_p5zh, U500, ncep_lftx, ncep_p5_z, shum400, P500, shum700, train.acc = 0.825382, test.acc = 0.764103
+features = ncep_p__v, ncep_p5zh, U500, ncep_lftx, ncep_p5_z, shum400, P500, shum700, train.acc = 0.825382, test.acc = 0.771795
+features = ncep_p__z, ncep_p__v, ncep_p5zh, U500, ncep_lftx, ncep_p5_z, shum400, P500, shum700, train.acc = 0.829198, test.acc = 0.771795
+features = ncep_pr_wtr, ncep_p__z, ncep_p__v, ncep_p5zh, U500, ncep_lftx, ncep_p5_z, shum400, P500, shum700, train.acc = 0.835878, test.acc = 0.776923
+features = ncep_p8_z, ncep_pr_wtr, ncep_p__z, ncep_p__v, ncep_p5zh, U500, ncep_lftx, ncep_p5_z, shum400, P500, shum700, train.acc = 0.843511, test.acc = 0.787179
+harmonic-mean
+features = shum700, train.acc = 0.708015, test.acc = 0.687179
+features = P500, shum700, train.acc = 0.761450, test.acc = 0.746154
+features = shum400, P500, shum700, train.acc = 0.782443, test.acc = 0.751282
+features = ncep_p5_z, shum400, P500, shum700, train.acc = 0.792939, test.acc = 0.751282
+features = ncep_lftx, ncep_p5_z, shum400, P500, shum700, train.acc = 0.800573, test.acc = 0.758974
+features = U500, ncep_lftx, ncep_p5_z, shum400, P500, shum700, train.acc = 0.812023, test.acc = 0.751282
+features = ncep_p5zh, U500, ncep_lftx, ncep_p5_z, shum400, P500, shum700, train.acc = 0.825382, test.acc = 0.764103
+features = ncep_p__v, ncep_p5zh, U500, ncep_lftx, ncep_p5_z, shum400, P500, shum700, train.acc = 0.825382, test.acc = 0.771795

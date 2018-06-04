@@ -1,0 +1,19 @@
++ Rain season
+
++ scan features
+features = U925, ncep_p5th, ncep_lftx, ncep_p__f, dswrf, ncep_p__z, V925, rhum, ncep_p8_z, U500, Uas, V700, ncep_shum, mslp, Vas, U700, temp700, ncep_p8th, ncep_pr_wtr, train.acc = 0.838627, test.acc = 0.801421
+
++ scan param
+
+
+----------------------------------------------------------------------------------------------------
+
++ Dry season
++ scan features
+features = temp850, ncep_p__f, ncep_p5_z, R850, ncep_p5th, Uas, U700, R500, ncep_p__v, P500, shum700, train.acc = 0.843864, test.acc = 0.807807
+
++ scan param
+
+
+
+
